@@ -65,7 +65,7 @@ const Home = () => {
               </Box>
               <Box mt={6}>
                 {Object.values(article).map(({id, data}) => (
-                    <Post key={id} posts={data}/>
+                    <Post key={id} id={id} posts={data}/>
                 ))}
               </Box>
             </Grid>
